@@ -3,7 +3,7 @@
 </script>
 
 <div class="title">
-   <img src="/static/controller.svg" alt="site logo">
+   <img src="/controller.svg" alt="site logo">
    <h1>{title}</h1>
 </div>
 
