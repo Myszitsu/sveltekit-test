@@ -1,7 +1,6 @@
 <script context="module">
 	export async function load({ fetch, page }) {
 		const id = page.params.id;
-      await new Promise(resolve => setTimeout(resolve, 1000))
 		const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
 		const guide = await res.json();
 		if (res.ok) {
