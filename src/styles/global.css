@@ -1,0 +1,33 @@
+body {
+	background: #422d5d;
+	margin: 0;
+	/* overflow: hidden; */
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+li {
+	color: #decff1;
+	font-family: 'VT323', monospace;
+	font-weight: normal;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	list-style-type: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
