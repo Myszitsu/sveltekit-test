@@ -1,7 +1,4 @@
 <script context="module">
-import Error from "../__error.svelte";
-
-
 	export async function load({ fetch, page }) {
 		const id = page.params.id;
       await new Promise(resolve => setTimeout(resolve, 1000))

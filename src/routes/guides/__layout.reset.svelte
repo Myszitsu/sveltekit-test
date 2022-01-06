@@ -18,7 +18,7 @@
 	<slot />
 </main>
 <footer>
-	<p>2022</p>
+	<p>Copyright 2022 Net Nija</p>
 </footer>
 
 <style>
